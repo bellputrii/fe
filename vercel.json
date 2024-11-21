@@ -1,18 +1,17 @@
 {
     "builds": [
-      {
+    {
         "src": "vite.config.js",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "public"
+        "distDir": "public"
         }
-      }
+    }
     ],
     "rewrites": [
-      {
+    {
         "source": "/(.*)",
         "destination": "/index.php"
-      }
+    }
     ]
-  }
-  
+}
