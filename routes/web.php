@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/shop', function () {
-    return view('shop'); // Mengarahkan ke file shop.blade.php
+    return view('shop');
 });

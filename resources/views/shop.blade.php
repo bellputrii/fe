@@ -15,13 +15,13 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner" style="transition: transform 0.3s ease-out;">
                     <div class="carousel-item active">
-                        <img src="{{ asset('images/img1.png') }}" class="d-block w-100 rounded-md" alt="Product Image 1">
+                        <img src="{{ asset('storage/images/img1.png') }}" class="d-block w-100 rounded-md" alt="Product Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ asset('images/img2.jpg') }}" class="d-block w-100 rounded-md" alt="Product Image 2">
+                        <img src="{{ asset('storage/images/img2.jpg') }}" class="d-block w-100 rounded-md" alt="Product Image 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ asset('images/img3.jpg') }}" class="d-block w-100 rounded-md" alt="Product Image 3">
+                        <img src="{{ asset('storage/images/img3.jpg') }}" class="d-block w-100 rounded-md" alt="Product Image 3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -36,9 +36,9 @@
 
             <div>
                 <div class="flex justify-start space-x-2 mt-4">
-                        <img src="{{ asset('images/img1.png') }}" alt="Thumbnail 1" class="w-10 h-5 object-cover rounded-md cursor-pointer">
-                        <img src="{{ asset('images/img2.jpg') }}" alt="Thumbnail 2" class="w-10 h-5 object-cover rounded-md cursor-pointer">
-                        <img src="{{ asset('images/img3.jpg') }}" alt="Thumbnail 3" class="w-10 h-5 object-cover rounded-md cursor-pointer">
+                        <img src="{{ asset('storage/images/img1.png') }}" alt="Thumbnail 1" class="w-10 h-5 object-cover rounded-md cursor-pointer">
+                        <img src="{{ asset('storage/images/img2.jpg') }}" alt="Thumbnail 2" class="w-10 h-5 object-cover rounded-md cursor-pointer">
+                        <img src="{{ asset('storage/images/img3.jpg') }}" alt="Thumbnail 3" class="w-10 h-5 object-cover rounded-md cursor-pointer">
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <!-- Product 1 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product1.png') }}" alt="Product 1" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product1.png') }}" alt="Product 1" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 1</h3>
                     <p class="text-sm text-gray-500">Category 1</p>
@@ -101,7 +101,7 @@
 
             <!-- Product 2 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product2.png') }}" alt="Product 2" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product2.png') }}" alt="Product 2" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 2</h3>
                     <p class="text-sm text-gray-500">Category 2</p>
@@ -111,7 +111,7 @@
 
             <!-- Product 3 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product3.png') }}" alt="Product 3" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product3.png') }}" alt="Product 3" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 3</h3>
                     <p class="text-sm text-gray-500">Category 3</p>
@@ -121,7 +121,7 @@
 
             <!-- Product 4 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product4.png') }}" alt="Product 4" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product4.png') }}" alt="Product 4" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 4</h3>
                     <p class="text-sm text-gray-500">Category 4</p>
@@ -131,7 +131,7 @@
 
             <!-- Product 5 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product1.png') }}" alt="Product 5" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product1.png') }}" alt="Product 5" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 5</h3>
                     <p class="text-sm text-gray-500">Category 1</p>
@@ -141,7 +141,7 @@
 
             <!-- Product 6 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product2.png') }}" alt="Product 6" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product2.png') }}" alt="Product 6" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 6</h3>
                     <p class="text-sm text-gray-500">Category 2</p>
@@ -151,7 +151,7 @@
 
             <!-- Product 7 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product3.png') }}" alt="Product 7" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product3.png') }}" alt="Product 7" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 7</h3>
                     <p class="text-sm text-gray-500">Category 3</p>
@@ -161,7 +161,7 @@
 
             <!-- Product 8 -->
             <div class="bg-white rounded-md shadow-md overflow-hidden">
-                <img src="{{ asset('images/product4.png') }}" alt="Product 8" class="w-full h-52 object-cover">
+                <img src="{{ asset('storage/images/product4.png') }}" alt="Product 8" class="w-full h-52 object-cover">
                 <div class="p-4">
                     <h3 class="text-sm font-semibold text-gray-800">Product 8</h3>
                     <p class="text-sm text-gray-500">Category 4</p>
