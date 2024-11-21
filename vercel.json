@@ -1,17 +1,10 @@
 {
-    "builds": [
-    {
-        "src": "vite.config.js",
-        "use": "@vercel/static-build",
-        "config": {
-        "distDir": "public"
-        }
-    }
-    ],
     "rewrites": [
-    {
+      {
+        "framework": "laravel",
         "source": "/(.*)",
-        "destination": "/shop.blade.php"
-    }
+        "destination": "/public/index.php"
+      }
     ]
-}
+  }
+  

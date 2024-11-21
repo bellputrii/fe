@@ -9,6 +9,9 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'dist', 
+        outDir: 'public/build', // Output ke folder publik
+        rollupOptions: {
+            input: '/resources/js/app.js'
+        },
     },
 });
